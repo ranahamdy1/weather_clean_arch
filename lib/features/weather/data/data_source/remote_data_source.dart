@@ -1,6 +1,6 @@
 import 'package:weather/core/utils/constant.dart';
-import 'package:weather/weather/data/models/weather_model.dart';
 import 'package:dio/dio.dart';
+import 'package:weather/features/weather/data/models/weather_model.dart';
 
 abstract class BaseRemoteDataSource {
   Future<WeatherModel> getWeatherByCountryName(String countryName);

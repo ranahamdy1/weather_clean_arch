@@ -1,5 +1,5 @@
-import 'package:weather/weather/domain/entities/weather_entities.dart';
-import 'package:weather/weather/domain/repository/base_weather_repository.dart';
+import 'package:weather/features/weather/domain/entities/weather_entities.dart';
+import 'package:weather/features/weather/domain/repository/base_weather_repository.dart';
 
 class GetWeatherByCountryName {
   final BaseWeatherRepository baseWeatherRepository;

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:weather/weather/data/data_source/remote_data_source.dart';
-import 'package:weather/weather/data/repository/weather_repository.dart';
-import 'package:weather/weather/domain/entities/weather_entities.dart';
-import 'package:weather/weather/domain/repository/base_weather_repository.dart';
-import 'package:weather/weather/domain/use_case/get_weather_by_country_name.dart';
+import 'features/weather/data/data_source/remote_data_source.dart';
+import 'features/weather/data/repository/weather_repository.dart';
+import 'features/weather/domain/entities/weather_entities.dart';
+import 'features/weather/domain/repository/base_weather_repository.dart';
+import 'features/weather/domain/use_case/get_weather_by_country_name.dart';
 
 void main() async{
   BaseRemoteDataSource baseRemoteDataSource = RemoteDataSource(); //3
